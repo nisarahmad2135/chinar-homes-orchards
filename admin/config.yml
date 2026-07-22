@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - file: "content.json"
+        label: "All Content"
+        name: "all"
+        fields:
+          - label: "Business Info"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow (small label, e.g. location)", name: "eyebrow", widget: "string" }
+              - { label: "Business Name", name: "businessName", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "About Us text", name: "aboutBody", widget: "text" }
+              - { label: "Phone Number", name: "phone", widget: "string" }
+              - { label: "WhatsApp Number (country code + number, no + or spaces, e.g. 919999999999)", name: "whatsapp", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+
+          - label: "Properties"
+            name: "properties"
+            widget: "list"
+            summary: "{{title}} — {{price}}"
+            fields:
+              - { label: "ID (short, unique, no spaces)", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Listing Type"
+                name: "listingType"
+                widget: "select"
+                options: ["For Sale", "For Rent"]
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Fruits"
+            name: "fruits"
+            widget: "list"
+            summary: "{{name}} — {{price}}"
+            fields:
+              - { label: "ID (short, unique, no spaces)", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "In Season (e.g. Sep – Nov)", name: "season", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{name}} — {{price}}"
+            fields:
+              - { label: "ID (short, unique, no spaces)", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
