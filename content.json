@@ -1,0 +1,66 @@
+{
+  "site": {
+    "eyebrow": "Srinagar, Jammu & Kashmir",
+    "businessName": "Chinar Homes & Orchards",
+    "tagline": "Real estate, home-grown fruit, and Kashmiri products — straight from Srinagar.",
+    "aboutBody": "We are a family-run business based in Srinagar. We help buy, sell and rent properties across the valley, grow and sell fruit from our own orchards in season, and put together a small selection of our own Kashmiri products. Edit this text, the business name, and the contact details from the admin panel.",
+    "phone": "+91-00000-00000",
+    "whatsapp": "910000000000",
+    "email": "hello@example.com",
+    "address": "Srinagar, Jammu & Kashmir, India"
+  },
+  "properties": [
+    {
+      "id": "prop-1",
+      "title": "3BHK house near Dal Lake",
+      "listingType": "For Sale",
+      "price": "₹85,00,000",
+      "location": "Nishat, Srinagar",
+      "image": "images/placeholder-property.svg",
+      "description": "Spacious 3-bedroom house with a garden, close to Dal Lake. Replace this with your real listing details."
+    },
+    {
+      "id": "prop-2",
+      "title": "Orchard land, 2 kanal",
+      "listingType": "For Sale",
+      "price": "₹40,00,000",
+      "location": "Pampore, Srinagar outskirts",
+      "image": "images/placeholder-property.svg",
+      "description": "Fruit-bearing orchard land with existing apple and cherry trees. Sample listing — edit or remove."
+    }
+  ],
+  "fruits": [
+    {
+      "id": "fruit-1",
+      "name": "Kashmiri Apples",
+      "price": "₹120 / kg",
+      "season": "Sep – Nov",
+      "image": "images/placeholder-fruit.svg",
+      "description": "Home-grown apples from our own orchard, picked fresh in season."
+    },
+    {
+      "id": "fruit-2",
+      "name": "Cherries",
+      "price": "₹350 / kg",
+      "season": "May – Jun",
+      "image": "images/placeholder-fruit.svg",
+      "description": "Sweet cherries, harvested in early summer. Limited stock during season."
+    }
+  ],
+  "products": [
+    {
+      "id": "product-1",
+      "name": "Kashmiri Saffron (5g)",
+      "price": "₹950",
+      "image": "images/placeholder-product.svg",
+      "description": "Hand-picked saffron, packed in small batches. Replace with your actual product."
+    },
+    {
+      "id": "product-2",
+      "name": "Walnut Pack (1kg)",
+      "price": "₹600",
+      "image": "images/placeholder-product.svg",
+      "description": "Shelled Kashmiri walnuts, sourced locally."
+    }
+  ]
+}

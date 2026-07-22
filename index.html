@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading…</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="nav-holder"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow" id="hero-eyebrow"></div>
+    <h1 id="hero-title"></h1>
+    <p class="tagline" id="hero-tagline"></p>
+    <div class="cta-row">
+      <a class="cta-btn" href="properties.html">Browse Properties</a>
+      <a class="cta-btn alt" href="fruits.html">Shop Fruits</a>
+      <a class="cta-btn" href="products.html">See Products</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Properties</h2>
+      <a class="see-all" href="properties.html">See all →</a>
+    </div>
+    <div class="grid" id="properties-preview"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Home-grown fruit</h2>
+      <a class="see-all" href="fruits.html">See all →</a>
+    </div>
+    <div class="grid" id="fruits-preview"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Our products</h2>
+      <a class="see-all" href="products.html">See all →</a>
+    </div>
+    <div class="grid" id="products-preview"></div>
+  </div>
+</section>
+
+<div id="about-holder"></div>
+<footer><div class="wrap">Built with a static site + admin panel. Edit everything from <a href="/admin/">/admin</a>.</div></footer>
+
+<script src="common.js"></script>
+<script>
+document.getElementById('nav-holder').innerHTML = renderNav('home');
+loadSite(data => {
+  document.getElementById('hero-eyebrow').textContent = data.site.eyebrow;
+  document.getElementById('hero-title').textContent = data.site.businessName;
+  document.getElementById('hero-tagline').textContent = data.site.tagline;
+  document.getElementById('properties-preview').innerHTML = data.properties.slice(0, 2).map(p => propertyCard(p, data.site.whatsapp)).join('');
+  document.getElementById('fruits-preview').innerHTML = data.fruits.slice(0, 3).map(f => fruitCard(f, data.site.whatsapp)).join('');
+  document.getElementById('products-preview').innerHTML = data.products.slice(0, 3).map(p => productCard(p, data.site.whatsapp)).join('');
+  document.getElementById('about-holder').innerHTML = renderAboutContact(data.site);
+});
+</script>
+</body>
+</html>

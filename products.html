@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading…</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="nav-holder"></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Products</div>
+    <h1>Our own products</h1>
+    <p class="tagline">A small, growing selection of things we make or source ourselves.</p>
+  </div>
+</header>
+<section class="section">
+  <div class="wrap">
+    <div class="grid" id="products-grid"></div>
+  </div>
+</section>
+<div id="about-holder"></div>
+<footer><div class="wrap">Built with a static site + admin panel. Edit everything from <a href="/admin/">/admin</a>.</div></footer>
+<script src="common.js"></script>
+<script>
+document.getElementById('nav-holder').innerHTML = renderNav('products');
+loadSite(data => {
+  document.getElementById('products-grid').innerHTML = data.products.map(p => productCard(p, data.site.whatsapp)).join('') || '<p>No products yet — add one from /admin.</p>';
+  document.getElementById('about-holder').innerHTML = renderAboutContact(data.site);
+});
+</script>
+</body>
+</html>

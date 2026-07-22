@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading…</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="nav-holder"></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Properties</div>
+    <h1>Real estate listings</h1>
+    <p class="tagline">Properties for sale and rent across Srinagar and the valley.</p>
+  </div>
+</header>
+<section class="section">
+  <div class="wrap">
+    <div class="grid" id="properties-grid"></div>
+  </div>
+</section>
+<div id="about-holder"></div>
+<footer><div class="wrap">Built with a static site + admin panel. Edit everything from <a href="/admin/">/admin</a>.</div></footer>
+<script src="common.js"></script>
+<script>
+document.getElementById('nav-holder').innerHTML = renderNav('properties');
+loadSite(data => {
+  document.getElementById('properties-grid').innerHTML = data.properties.map(p => propertyCard(p, data.site.whatsapp)).join('') || '<p>No listings yet — add one from /admin.</p>';
+  document.getElementById('about-holder').innerHTML = renderAboutContact(data.site);
+});
+</script>
+</body>
+</html>
