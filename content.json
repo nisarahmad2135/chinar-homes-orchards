@@ -1,66 +1,528 @@
 {
   "site": {
-    "eyebrow": "Srinagar, Jammu & Kashmir",
+    "eyebrow": "Srinagar, Jammu & Kashmir, India",
     "businessName": "Kashmir Holdings",
-    "tagline": "End-to-end solutions across Kashmir — from prime real estate and orchard produce to enterprise tech and strategic investments.",
-    "aboutBody": "Rooted in Srinagar, Kashmir Holdings is a multi-disciplinary family enterprise structured into specialized verticals to empower regional growth. Kashmir Properties facilitates seamless buying, selling, and leasing across prime valley real estate, alongside managing our organic family orchards. Under Kashmir Business Solutions, we deliver digital transformation through Odoo, Sage, Zoho Books, custom ERP systems, and business consulting. Through Kashmir Investments and Kashmir Ventures, we manage strategic capital and launch next-generation commercial endeavors and put together a small selection of our own Kashmiri products.",
+    "shortName": "Kashmir Holdings",
+    "tagline": "Building value across Kashmir through property, enterprise technology, agriculture, and strategic ventures.",
+    "heroTitle": "Rooted in Kashmir. Building for the Future.",
+    "heroSubtitle": "Kashmir Holdings is a family-led, multi-disciplinary enterprise connecting Kashmir's real estate, agricultural heritage, technology, and emerging business opportunities.",
+    "aboutTitle": "A Family Enterprise Built Around Kashmir",
+    "aboutBody": "Rooted in Srinagar, Kashmir Holdings is a multi-disciplinary family enterprise built around a simple vision: create sustainable value by combining local knowledge, trusted relationships, modern technology, and long-term thinking. Our businesses span prime real estate, family orchards, Kashmiri products, enterprise technology, business consulting, strategic investments, and new commercial ventures.",
+    "mission": "To build trusted businesses that contribute to the economic growth of Kashmir while creating lasting value for our customers, partners, and communities.",
+    "vision": "To become a trusted and diversified business group from Kashmir, connecting regional opportunity with modern enterprise.",
+    "values": [
+      "Integrity",
+      "Long-term thinking",
+      "Local expertise",
+      "Customer trust",
+      "Quality",
+      "Innovation",
+      "Sustainable growth"
+    ],
     "phone": "+91-9186366920",
     "whatsapp": "917051560554",
     "email": "holdingskashmir@gmail.com",
-    "address": "Srinagar, Jammu & Kashmir, India"
+    "address": "Srinagar, Jammu & Kashmir, India",
+    "serviceArea": "Jammu & Kashmir, India and selected international markets",
+    "businessHours": "Monday – Saturday, 9:00 AM – 6:00 PM"
   },
-  "properties": [
+
+  "verticals": [
     {
-      "id": "Property-1",
-      "title": "3 BHK house near Dal Lake",
-      "listingType": "For Sale",
-      "price": "₹85,00,000",
-      "location": "Nishat, Srinagar",
-      "image": "images/placeholder-property.svg",
-      "description": "Spacious 3-bedroom house with a garden, close to Dal Lake. Replace this with your real listing details."
+      "id": "vertical-properties",
+      "name": "Kashmir Properties",
+      "shortName": "Properties",
+      "title": "Prime Property Opportunities Across Kashmir",
+      "description": "Property buying, selling, leasing, and advisory services focused on residential, commercial, and land opportunities across Srinagar and the Kashmir Valley.",
+      "services": [
+        "Residential Properties",
+        "Commercial Properties",
+        "Land & Orchard Properties",
+        "Property Sales",
+        "Property Purchase Assistance",
+        "Property Leasing",
+        "Investment Property Advisory"
+      ]
     },
     {
-      "id": "Property-2",
-      "title": "Orchard land, 1 kanal",
-      "listingType": "For Sale",
-      "price": "₹100,00,000",
-      "location": "Harwan, Srinagar outskirts",
-      "image": "images/placeholder-property.svg",
-      "description": "Fruit-bearing orchard land with existing apple and cherry trees. Sample listing — edit or remove."
+      "id": "vertical-orchards",
+      "name": "Kashmir Orchards",
+      "shortName": "Orchards",
+      "title": "From Our Orchards to Your Table",
+      "description": "Our family orchards preserve Kashmir's agricultural heritage while producing seasonal fruits with an emphasis on freshness, quality, and responsible cultivation.",
+      "products": [
+        "Apples",
+        "Cherries",
+        "Pears",
+        "Plums",
+        "Walnuts",
+        "Seasonal Orchard Produce"
+      ]
+    },
+    {
+      "id": "vertical-business",
+      "name": "Kashmir Business Solutions",
+      "shortName": "Business Solutions",
+      "title": "Technology That Helps Businesses Grow",
+      "description": "We help businesses modernize their operations through accounting systems, ERP platforms, automation, implementation, and business consulting.",
+      "services": [
+        "Zoho Books Implementation",
+        "Zoho Business Solutions",
+        "Odoo Implementation",
+        "Sage Solutions",
+        "Custom ERP Systems",
+        "Business Process Automation",
+        "Accounting System Implementation",
+        "ERP Consulting",
+        "Digital Transformation",
+        "System Integration",
+        "Data Migration",
+        "Business Process Consulting"
+      ]
+    },
+    {
+      "id": "vertical-investments",
+      "name": "Kashmir Investments",
+      "shortName": "Investments",
+      "title": "Strategic Capital. Long-Term Value.",
+      "description": "We evaluate and pursue selective investment opportunities with a focus on sustainable businesses, productive assets, and long-term value creation.",
+      "focusAreas": [
+        "Real Estate",
+        "Agriculture",
+        "Technology",
+        "Small & Medium Businesses",
+        "Strategic Partnerships",
+        "Growth Opportunities"
+      ]
+    },
+    {
+      "id": "vertical-ventures",
+      "name": "Kashmir Ventures",
+      "shortName": "Ventures",
+      "title": "Building the Next Generation of Businesses",
+      "description": "Kashmir Ventures explores new commercial opportunities, partnerships, and internally developed business concepts across emerging sectors.",
+      "focusAreas": [
+        "New Business Development",
+        "Strategic Partnerships",
+        "Technology Ventures",
+        "Consumer Products",
+        "Regional Opportunities",
+        "Innovation-led Businesses"
+      ]
     }
   ],
+
+  "properties": [
+    {
+      "id": "property-1",
+      "title": "3 BHK House Near Dal Lake",
+      "listingType": "For Sale",
+      "propertyType": "Residential",
+      "price": "₹85,00,000",
+      "location": "Nishat, Srinagar",
+      "area": "1,800 sq. ft.",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image": "images/placeholder-property.svg",
+      "featured": true,
+      "description": "A spacious 3-bedroom residential property in the Nishat area, offering convenient access to Dal Lake, gardens, schools, and essential amenities.",
+      "features": [
+        "3 Bedrooms",
+        "3 Bathrooms",
+        "Garden Area",
+        "Residential Neighborhood",
+        "Good Road Connectivity",
+        "Near Dal Lake"
+      ],
+      "status": "Available"
+    },
+    {
+      "id": "property-2",
+      "title": "Apple & Cherry Orchard Land",
+      "listingType": "For Sale",
+      "propertyType": "Orchard Land",
+      "price": "₹1,00,00,000",
+      "location": "Harwan, Srinagar Outskirts",
+      "area": "1 Kanal",
+      "image": "images/placeholder-property.svg",
+      "featured": true,
+      "description": "Productive orchard land located on the outskirts of Srinagar with existing fruit-bearing trees and potential for long-term agricultural and land investment.",
+      "features": [
+        "1 Kanal",
+        "Apple Trees",
+        "Cherry Trees",
+        "Agricultural Potential",
+        "Scenic Location",
+        "Accessible Road"
+      ],
+      "status": "Available"
+    },
+    {
+      "id": "property-3",
+      "title": "Residential Plot in Srinagar",
+      "listingType": "For Sale",
+      "propertyType": "Residential Land",
+      "price": "Price on Request",
+      "location": "Srinagar, Kashmir",
+      "area": "2 Kanal",
+      "image": "images/placeholder-property.svg",
+      "featured": false,
+      "description": "Residential land opportunity suitable for a private residence or long-term property investment.",
+      "features": [
+        "Residential Zoning",
+        "Accessible Location",
+        "Investment Potential",
+        "Clear Property Details"
+      ],
+      "status": "Available"
+    },
+    {
+      "id": "property-4",
+      "title": "Commercial Space in Srinagar",
+      "listingType": "For Lease",
+      "propertyType": "Commercial",
+      "price": "Price on Request",
+      "location": "Srinagar",
+      "area": "1,500 sq. ft.",
+      "image": "images/placeholder-property.svg",
+      "featured": false,
+      "description": "Commercial space suitable for office, retail, professional services, or other business operations.",
+      "features": [
+        "Commercial Location",
+        "Road Access",
+        "Suitable for Office",
+        "Suitable for Retail",
+        "Business-Friendly Location"
+      ],
+      "status": "Available"
+    }
+  ],
+
   "fruits": [
     {
       "id": "fruit-1",
       "name": "Kashmiri Apples",
+      "category": "Orchard Fruit",
       "price": "₹120 / kg",
-      "season": "Sep – Nov",
+      "season": "September – November",
       "image": "images/placeholder-fruit.svg",
-      "description": "Home-grown apples from our own orchard, picked fresh in season."
+      "featured": true,
+      "description": "Fresh apples harvested from our family orchards in Kashmir during the peak harvest season.",
+      "availability": "Seasonal"
     },
     {
       "id": "fruit-2",
-      "name": "Cherries",
+      "name": "Kashmiri Cherries",
+      "category": "Orchard Fruit",
       "price": "₹350 / kg",
-      "season": "May – Jun",
+      "season": "May – June",
       "image": "images/placeholder-fruit.svg",
-      "description": "Sweet cherries, harvested in early summer. Limited stock during season."
+      "featured": true,
+      "description": "Sweet and naturally vibrant Kashmiri cherries harvested during the early summer season.",
+      "availability": "Seasonal"
+    },
+    {
+      "id": "fruit-3",
+      "name": "Kashmiri Pears",
+      "category": "Orchard Fruit",
+      "price": "₹180 / kg",
+      "season": "August – September",
+      "image": "images/placeholder-fruit.svg",
+      "featured": false,
+      "description": "Fresh seasonal pears sourced from Kashmir orchards.",
+      "availability": "Seasonal"
+    },
+    {
+      "id": "fruit-4",
+      "name": "Kashmiri Plums",
+      "category": "Orchard Fruit",
+      "price": "₹200 / kg",
+      "season": "June – July",
+      "image": "images/placeholder-fruit.svg",
+      "featured": false,
+      "description": "Naturally sweet seasonal plums harvested from local orchards.",
+      "availability": "Seasonal"
+    },
+    {
+      "id": "fruit-5",
+      "name": "Fresh Walnuts",
+      "category": "Dry Fruit",
+      "price": "₹600 / kg",
+      "season": "October – December",
+      "image": "images/placeholder-fruit.svg",
+      "featured": true,
+      "description": "Premium Kashmiri walnuts sourced from local orchards and agricultural partners.",
+      "availability": "Seasonal"
+    },
+    {
+      "id": "fruit-6",
+      "name": "Mixed Orchard Basket",
+      "category": "Seasonal Collection",
+      "price": "Price on Request",
+      "season": "Seasonal",
+      "image": "images/placeholder-fruit.svg",
+      "featured": false,
+      "description": "A seasonal selection of fresh Kashmir orchard produce, subject to availability.",
+      "availability": "Seasonal"
     }
   ],
+
   "products": [
     {
       "id": "product-1",
-      "name": "Kashmiri Saffron (1g)",
+      "name": "Kashmiri Saffron",
+      "variant": "1 gram",
+      "category": "Spices",
       "price": "₹950",
       "image": "images/placeholder-product.svg",
-      "description": "Hand-picked saffron, packed in small batches. Replace with your actual product."
+      "featured": true,
+      "description": "Premium Kashmiri saffron carefully selected and packed in small batches.",
+      "availability": "In Stock"
     },
     {
       "id": "product-2",
-      "name": "Walnut Pack (1kg)",
+      "name": "Kashmiri Saffron",
+      "variant": "2 grams",
+      "category": "Spices",
+      "price": "₹1,800",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "Premium saffron suitable for home use, gifting, and special occasions.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-3",
+      "name": "Kashmiri Walnuts",
+      "variant": "1 kg",
+      "category": "Dry Fruits",
       "price": "₹600",
       "image": "images/placeholder-product.svg",
-      "description": "Shelled Kashmiri walnuts, sourced locally."
+      "featured": true,
+      "description": "Locally sourced Kashmiri walnuts selected for freshness and quality.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-4",
+      "name": "Kashmiri Almonds",
+      "variant": "500 grams",
+      "category": "Dry Fruits",
+      "price": "₹450",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "Locally sourced almonds packed for freshness and everyday consumption.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-5",
+      "name": "Kashmiri Almonds",
+      "variant": "1 kg",
+      "category": "Dry Fruits",
+      "price": "₹850",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "Premium locally sourced Kashmiri almonds.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-6",
+      "name": "Kashmiri Honey",
+      "variant": "500 grams",
+      "category": "Natural Products",
+      "price": "₹450",
+      "image": "images/placeholder-product.svg",
+      "featured": true,
+      "description": "Naturally sourced honey from Kashmir, subject to seasonal availability.",
+      "availability": "Seasonal"
+    },
+    {
+      "id": "product-7",
+      "name": "Kashmiri Kehwa Tea",
+      "variant": "100 grams",
+      "category": "Tea & Beverages",
+      "price": "₹250",
+      "image": "images/placeholder-product.svg",
+      "featured": true,
+      "description": "Traditional Kashmiri kehwa blend prepared with aromatic spices and tea.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-8",
+      "name": "Kashmiri Chilli Powder",
+      "variant": "250 grams",
+      "category": "Spices",
+      "price": "₹180",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "A vibrant Kashmiri chilli powder valued for its natural colour and balanced flavour.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-9",
+      "name": "Kashmiri Walnut Kernels",
+      "variant": "500 grams",
+      "category": "Dry Fruits",
+      "price": "₹350",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "Carefully selected walnut kernels sourced from Kashmir.",
+      "availability": "In Stock"
+    },
+    {
+      "id": "product-10",
+      "name": "Kashmiri Dry Fruit Gift Box",
+      "variant": "Premium Box",
+      "category": "Gift Hampers",
+      "price": "₹1,500",
+      "image": "images/placeholder-product.svg",
+      "featured": true,
+      "description": "A curated selection of premium Kashmiri dry fruits, ideal for gifting and special occasions.",
+      "availability": "Made to Order"
+    },
+    {
+      "id": "product-11",
+      "name": "Kashmiri Saffron Gift Box",
+      "variant": "Premium Gift Pack",
+      "category": "Gift Hampers",
+      "price": "₹2,500",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "Premium Kashmiri saffron presented in an elegant gift-ready package.",
+      "availability": "Made to Order"
+    },
+    {
+      "id": "product-12",
+      "name": "Kashmiri Orchard Gift Basket",
+      "variant": "Seasonal Basket",
+      "category": "Gift Hampers",
+      "price": "Price on Request",
+      "image": "images/placeholder-product.svg",
+      "featured": false,
+      "description": "A seasonal collection of selected fruits and locally sourced Kashmiri products.",
+      "availability": "Seasonal"
     }
-  ]
+  ],
+
+  "businessSolutions": {
+    "title": "Kashmir Business Solutions",
+    "subtitle": "Modern technology for growing businesses.",
+    "description": "From accounting software implementation to complete ERP transformation, we help businesses streamline operations, improve visibility, and build scalable systems.",
+    "platforms": [
+      {
+        "name": "Zoho Books",
+        "description": "Accounting, invoicing, VAT, inventory, automation, and financial management."
+      },
+      {
+        "name": "Odoo",
+        "description": "Integrated ERP solutions covering accounting, inventory, CRM, sales, purchasing, and operations."
+      },
+      {
+        "name": "Sage",
+        "description": "Accounting and business management solutions for established businesses."
+      },
+      {
+        "name": "Custom ERP",
+        "description": "Tailored business applications designed around specific operational requirements."
+      }
+    ],
+    "services": [
+      "Business Process Analysis",
+      "ERP Implementation",
+      "Accounting Software Setup",
+      "System Configuration",
+      "Data Migration",
+      "Custom Development",
+      "Workflow Automation",
+      "Reporting & Dashboards",
+      "User Training",
+      "Technical Support",
+      "System Integration",
+      "Digital Transformation Consulting"
+    ]
+  },
+
+  "investment": {
+    "title": "Kashmir Investments",
+    "description": "We selectively invest in opportunities where local knowledge, operational expertise, and long-term capital can create meaningful value.",
+    "areas": [
+      "Real Estate",
+      "Agriculture & Orchards",
+      "Technology",
+      "Business Services",
+      "Consumer Products",
+      "Emerging Businesses"
+    ]
+  },
+
+  "ventures": {
+    "title": "Kashmir Ventures",
+    "description": "A platform for exploring, developing, and launching new businesses built around emerging opportunities in Kashmir and beyond.",
+    "focus": [
+      "New Business Concepts",
+      "Strategic Partnerships",
+      "Technology Ventures",
+      "Consumer Brands",
+      "Regional Commerce",
+      "Digital Businesses"
+    ]
+  },
+
+  "whyUs": [
+    {
+      "title": "Rooted in Kashmir",
+      "description": "Our local presence, relationships, and understanding of the region guide everything we do."
+    },
+    {
+      "title": "Multiple Capabilities",
+      "description": "From property and agriculture to technology and investments, our businesses operate across complementary sectors."
+    },
+    {
+      "title": "Technology Driven",
+      "description": "We combine traditional business knowledge with modern digital systems and technology."
+    },
+    {
+      "title": "Long-Term Approach",
+      "description": "We focus on sustainable relationships, productive assets, and businesses built for the long term."
+    },
+    {
+      "title": "Quality & Trust",
+      "description": "We believe every transaction and partnership should be built on transparency, reliability, and quality."
+    }
+  ],
+
+  "cta": {
+    "title": "Let's Build Something Valuable Together",
+    "description": "Whether you are looking for a property, exploring business technology, interested in our Kashmiri products, or considering a strategic partnership, we'd be happy to connect.",
+    "primaryButton": "Get in Touch",
+    "secondaryButton": "Explore Our Businesses"
+  },
+
+  "contact": {
+    "title": "Connect With Kashmir Holdings",
+    "description": "Reach out to our team for property enquiries, business solutions, product availability, partnerships, or investment opportunities.",
+    "phone": "+91-9186366920",
+    "whatsapp": "917051560554",
+    "email": "holdingskashmir@gmail.com",
+    "address": "Srinagar, Jammu & Kashmir, India",
+    "channels": [
+      "Phone",
+      "WhatsApp",
+      "Email"
+    ]
+  },
+
+  "footer": {
+    "businessName": "Kashmir Holdings",
+    "tagline": "Rooted in Kashmir. Building for the Future.",
+    "copyright": "© 2026 Kashmir Holdings. All rights reserved.",
+    "links": [
+      "About",
+      "Properties",
+      "Orchards",
+      "Products",
+      "Business Solutions",
+      "Investments",
+      "Ventures",
+      "Contact"
+    ]
+  }
 }
