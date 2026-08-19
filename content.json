@@ -172,6 +172,7 @@
     "shortName": "Kashmir Holdings",
     "vision": "To become a trusted and diversified business group from Kashmir, connecting regional opportunity with modern enterprise.",
     "eyebrow": "Srinagar, Jammu & Kashmir, India",
+    "logo": "images/kashmir-hommdings-logo.jpg",
     "businessName": "Kashmir Holdings",
     "aboutTitle": "A Family Enterprise Built Around Kashmir",
     "mission": "To build trusted businesses that contribute to the economic growth of Kashmir while creating lasting value for our customers, partners, and communities.",
@@ -303,7 +304,7 @@
   },
   "footer": {
     "businessName": "Kashmir Holdings",
-        "logo": "",
+    "logo": "",
     "tagline": "Rooted in Kashmir. Building for the Future.",
     "copyright": "© 2026 Kashmir Holdings. All rights reserved.",
     "links": [
