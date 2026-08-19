@@ -3,7 +3,7 @@
     "eyebrow": "Srinagar, Jammu & Kashmir",
     "businessName": "Kashmir Holdings",
     "tagline": "End-to-end solutions across Kashmir — from prime real estate and orchard produce to enterprise tech and strategic investments.",
-    "aboutBody": "Rooted in Srinagar, Kashmir Holdings is a multi-disciplinary family enterprise structured into specialized verticals to empower regional growth. Kashmir Properties facilitates seamless buying, selling, and leasing across prime valley real estate, alongside managing our organic family orchards. Under Kashmir Business Solutions, we deliver digital transformation through Zoho Books, custom ERP systems, and business consulting. Through Kashmir Investments and Kashmir Ventures, we manage strategic capital and launch next-generation commercial endeavors and put together a small selection of our own Kashmiri products. Edit this text, the business name, and the contact details from the admin panel.",
+    "aboutBody": "Rooted in Srinagar, Kashmir Holdings is a multi-disciplinary family enterprise structured into specialized verticals to empower regional growth. Kashmir Properties facilitates seamless buying, selling, and leasing across prime valley real estate, alongside managing our organic family orchards. Under Kashmir Business Solutions, we deliver digital transformation through Odoo, Sage, Zoho Books, custom ERP systems, and business consulting. Through Kashmir Investments and Kashmir Ventures, we manage strategic capital and launch next-generation commercial endeavors and put together a small selection of our own Kashmiri products. Edit this text, the business name, and the contact details from the admin panel.",
     "phone": "+91-9186366920",
     "whatsapp": "917051560554",
     "email": "holdingskashmir@gmail.com",
@@ -12,7 +12,7 @@
   "properties": [
     {
       "id": "Property-1",
-      "title": "3BHK house near Dal Lake",
+      "title": "3 BHK house near Dal Lake",
       "listingType": "For Sale",
       "price": "₹85,00,000",
       "location": "Nishat, Srinagar",
