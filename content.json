@@ -193,6 +193,15 @@
   },
   "properties": [
     {
+      "id": "Property-1",
+      "title": "2 BHK House Near Dal Lake",
+      "listingType": "For Sale",
+      "price": "₹85,00,000",
+      "location": "Nishat, Srinagar",
+      "description": "A spacious 3-bedroom residential property in the Nishat area, offering convenient access to Dal Lake, gardens, schools, and essential amenities.",
+      "image": "images/chatgpt-image-aug-19-2026-06_06_11-pm.png"
+    },
+    {
       "bathrooms": 3,
       "price": "₹85,00,000",
       "area": "1,800 sq. ft.",
