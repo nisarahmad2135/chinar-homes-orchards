@@ -1,17 +1,17 @@
 {
   "site": {
     "eyebrow": "Srinagar, Jammu & Kashmir",
-    "businessName": "Chinar Homes & Orchards",
-    "tagline": "Real estate, home-grown fruit, and Kashmiri products — straight from Srinagar.",
-    "aboutBody": "We are a family-run business based in Srinagar. We help buy, sell and rent properties across the valley, grow and sell fruit from our own orchards in season, and put together a small selection of our own Kashmiri products. Edit this text, the business name, and the contact details from the admin panel.",
-    "phone": "+91-00000-00000",
-    "whatsapp": "910000000000",
-    "email": "hello@example.com",
+    "businessName": "Kashmir Holdings",
+    "tagline": "End-to-end solutions across Kashmir — from prime real estate and orchard produce to enterprise tech and strategic investments.",
+    "aboutBody": "Rooted in Srinagar, Kashmir Holdings is a multi-disciplinary family enterprise structured into specialized verticals to empower regional growth. Kashmir Properties facilitates seamless buying, selling, and leasing across prime valley real estate, alongside managing our organic family orchards. Under Kashmir Business Solutions, we deliver digital transformation through Zoho Books, custom ERP systems, and business consulting. Through Kashmir Investments and Kashmir Ventures, we manage strategic capital and launch next-generation commercial endeavors and put together a small selection of our own Kashmiri products. Edit this text, the business name, and the contact details from the admin panel.",
+    "phone": "+91-9186366920",
+    "whatsapp": "917051560554",
+    "email": "holdingskashmir@gmail.com",
     "address": "Srinagar, Jammu & Kashmir, India"
   },
   "properties": [
     {
-      "id": "prop-1",
+      "id": "Property-1",
       "title": "3BHK house near Dal Lake",
       "listingType": "For Sale",
       "price": "₹85,00,000",
@@ -20,11 +20,11 @@
       "description": "Spacious 3-bedroom house with a garden, close to Dal Lake. Replace this with your real listing details."
     },
     {
-      "id": "prop-2",
-      "title": "Orchard land, 2 kanal",
+      "id": "Property-2",
+      "title": "Orchard land, 1 kanal",
       "listingType": "For Sale",
-      "price": "₹40,00,000",
-      "location": "Pampore, Srinagar outskirts",
+      "price": "₹100,00,000",
+      "location": "Harwan, Srinagar outskirts",
       "image": "images/placeholder-property.svg",
       "description": "Fruit-bearing orchard land with existing apple and cherry trees. Sample listing — edit or remove."
     }
@@ -50,7 +50,7 @@
   "products": [
     {
       "id": "product-1",
-      "name": "Kashmiri Saffron (5g)",
+      "name": "Kashmiri Saffron (1g)",
       "price": "₹950",
       "image": "images/placeholder-product.svg",
       "description": "Hand-picked saffron, packed in small batches. Replace with your actual product."
