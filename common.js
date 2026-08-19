@@ -84,7 +84,9 @@ function loadSite(callback) {
   fetch('content.json?_=' + Date.now())
     .then(r => r.json())
     .then(data => {
-      document.getElementById('nav-brand').textContent = data.site.businessName;
+           document.getElementById('nav-brand').innerHTML = data.site.logo
+        ? `<img src="${data.site.logo}" alt="${data.site.businessName}" style="height:36px;vertical-align:middle;margin-right:8px;border-radius:2px;">${data.site.businessName}`
+        : data.site.businessName;
       document.title = data.site.businessName;
       callback(data);
     });
