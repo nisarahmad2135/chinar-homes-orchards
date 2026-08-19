@@ -202,46 +202,13 @@
       "image": "images/chatgpt-image-aug-19-2026-06_06_11-pm.png"
     },
     {
-      "bathrooms": 3,
-      "price": "₹85,00,000",
-      "area": "1,800 sq. ft.",
-      "featured": true,
-      "propertyType": "Residential",
-      "status": "Available",
-      "location": "Nishat, Srinagar",
-      "bedrooms": 3,
-      "title": "3 BHK House Near Dal Lake",
-      "id": "property-1",
-      "image": "images/placeholder-property.svg",
-      "description": "A spacious 3-bedroom residential property in the Nishat area, offering convenient access to Dal Lake, gardens, schools, and essential amenities.",
-      "features": [
-        "3 Bedrooms",
-        "3 Bathrooms",
-        "Garden Area",
-        "Residential Neighborhood",
-        "Good Road Connectivity",
-        "Near Dal Lake"
-      ],
-      "listingType": "For Sale"
-    },
-    {
-      "price": "Price on Request",
-      "area": "2 Kanal",
-      "featured": false,
-      "propertyType": "Residential Land",
-      "status": "Available",
-      "location": "Srinagar, Kashmir",
       "title": "Residential Plot in Srinagar",
-      "id": "property-3",
-      "image": "images/placeholder-property.svg",
-      "description": "Residential land opportunity suitable for a private residence or long-term property investment.",
-      "features": [
-        "Residential Zoning",
-        "Accessible Location",
-        "Investment Potential",
-        "Clear Property Details"
-      ],
-      "listingType": "For Sale"
+      "id": "Property-2",
+      "listingType": "For Sale",
+      "price": "Price on Request",
+      "location": "Srinagar, Kashmir",
+      "image": "images/luxurious-villa-with-modern-architectural-design.jpg",
+      "description": "Residential land opportunity suitable for a private residence or long-term property investment."
     },
     {
       "price": "₹1,00,00,000",
