@@ -20,6 +20,7 @@ collections:
               - { label: "Eyebrow (small label, e.g. location)", name: "eyebrow", widget: "string" }
               - { label: "Business Name", name: "businessName", widget: "string" }
               - { label: "Logo", name: "logo", widget: "image", required: false }
+              - { label: "Cover Photo (homepage banner)", name: "coverImage", widget: "image", required: false }
               - { label: "Tagline", name: "tagline", widget: "string" }
               - { label: "About Us text", name: "aboutBody", widget: "text" }
               - { label: "Phone Number", name: "phone", widget: "string" }
