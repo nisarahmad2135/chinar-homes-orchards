@@ -64,6 +64,10 @@ loadSite(data => {
   document.getElementById('hero-eyebrow').textContent = data.site.eyebrow;
   document.getElementById('hero-title').textContent = data.site.businessName;
   document.getElementById('hero-tagline').textContent = data.site.tagline;
+    if (data.site.coverImage) {
+    document.getElementById('hero-section').classList.add('has-cover');
+    document.getElementById('hero-cover-bg').style.backgroundImage = `url('${data.site.coverImage}')`;
+  }
   document.getElementById('properties-preview').innerHTML = data.properties.slice(0, 2).map(p => propertyCard(p, data.site.whatsapp)).join('');
   document.getElementById('fruits-preview').innerHTML = data.fruits.slice(0, 3).map(f => fruitCard(f, data.site.whatsapp)).join('');
   document.getElementById('products-preview').innerHTML = data.products.slice(0, 3).map(p => productCard(p, data.site.whatsapp)).join('');
