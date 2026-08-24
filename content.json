@@ -213,6 +213,26 @@
       "description": "Residential land opportunity suitable for a private residence or long-term property investment."
     },
     {
+      "price": "Price on Request",
+      "area": "1,500 sq. ft.",
+      "featured": false,
+      "propertyType": "Commercial",
+      "status": "Available",
+      "location": "Srinagar",
+      "title": "Commercial Space in Srinagar",
+      "id": "property-3",
+      "image": "images/commercial-real-estate-advertising-png-images-house-building-green-png-transparent-background-pngtree.jpg",
+      "description": "Commercial space suitable for office, retail, professional services, or other business operations.",
+      "features": [
+        "Commercial Location",
+        "Road Access",
+        "Suitable for Office",
+        "Suitable for Retail",
+        "Business-Friendly Location"
+      ],
+      "listingType": "For Rent"
+    },
+    {
       "price": "₹1,00,00,000",
       "area": "1 Kanal",
       "featured": true,
@@ -232,26 +252,6 @@
         "Accessible Road"
       ],
       "listingType": "For Sale"
-    },
-    {
-      "price": "Price on Request",
-      "area": "1,500 sq. ft.",
-      "featured": false,
-      "propertyType": "Commercial",
-      "status": "Available",
-      "location": "Srinagar",
-      "title": "Commercial Space in Srinagar",
-      "id": "property-4",
-      "image": "images/placeholder-property.svg",
-      "description": "Commercial space suitable for office, retail, professional services, or other business operations.",
-      "features": [
-        "Commercial Location",
-        "Road Access",
-        "Suitable for Office",
-        "Suitable for Retail",
-        "Business-Friendly Location"
-      ],
-      "listingType": "For Lease"
     }
   ],
   "investment": {
@@ -306,7 +306,7 @@
   "footer": {
     "businessName": "Kashmir Holdings",
     "logo": "",
-   "coverImage": "images/your-photo-name.jpg",
+    "coverImage": "images/your-photo-name.jpg",
     "tagline": "Rooted in Kashmir. Building for the Future.",
     "copyright": "© 2026 Kashmir Holdings. All rights reserved.",
     "links": [
