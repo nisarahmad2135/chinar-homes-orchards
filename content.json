@@ -252,6 +252,15 @@
         "Accessible Road"
       ],
       "listingType": "For Sale"
+    },
+    {
+      "id": "Property-5",
+      "title": "Villa Homes",
+      "listingType": "For Sale",
+      "price": "15000000",
+      "location": "Srinagar , Harwan",
+      "image": "images/download-1-.jpg",
+      "description": "Beautiful villas for families to start a peaceful life..."
     }
   ],
   "investment": {
